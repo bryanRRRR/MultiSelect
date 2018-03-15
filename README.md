@@ -6,7 +6,8 @@ ps：下载完代码，先pod install一下
 
 
 1、实现思路
-现在我实现的方式是上下两个UICollectionView，
+现在我实现的方式是上下两个UICollectionView。
+
 a、 上面的UICollectionView(下面简称：organizationCollectionView)
 
  主要负责层级的展开、收起、选择。由于层级是不确定的，用UIScrollView的话，层级过多，也无释放，内存会可能过高，所以这里选中UICollectionView实现每个UICollectionViewCell内再嵌套一个UITableView,

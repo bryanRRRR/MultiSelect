@@ -19,6 +19,7 @@ b、 下面的UICollectionView(下面简称：selectCollectionView)，主要负�
 
 2、代码分析
 a、多选简单使用
+
       let vc = GZTMultiSelectViewController()
       let navi = GZTNavigationViewController.init(rootViewController: vc)
       self.present(navi, animated: true) {}
@@ -29,6 +30,7 @@ a、多选简单使用
 
 
 b、 单选简单使用
+
       let vc = GZTMultiSelectViewController()
       vc.type = .radio
       let navi = GZTNavigationViewController.init(rootViewController: vc)

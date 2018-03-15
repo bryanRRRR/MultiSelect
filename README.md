@@ -134,6 +134,7 @@ e、selectOrganization()  主要实现的功能
 单选的情况下，主要用于记录当前选中的数据model。
 
 d、selectCollectionView和相关数据的初始化
+
     fileprivate lazy var selectCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
@@ -146,9 +147,9 @@ d、selectCollectionView和相关数据的初始化
         collectionView.register(GZTSelectCollectionCell.self, forCellWithReuseIdentifier: selectCollectionCell)
         return collectionView
     }()
-    // multiselect状态下，已经选择的model数据链
     fileprivate var selectList: Array<Array<GZTModel>>? = []
-这里的主要需要注意selectList，这个数据是数组嵌套数组，外层主要代表被选择的个数；里面数据代表被选中的数据，从第一层数据到该数据的所有model。
+ 
+ 这里的主要需要注意selectList，这个数据是数组嵌套数组，外层主要代表被选择的个数；里面数据代表被选中的数据，从第一层数据到该数据的所有model。
 
 
 

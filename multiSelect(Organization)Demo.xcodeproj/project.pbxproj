@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0FE8CD205622A800C16710 /* GZTBaseConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0FE8CC205622A800C16710 /* GZTBaseConst.swift */; };
+		0C3D11C9205914D300D3FE4C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D11C8205914D300D3FE4C /* String+Extension.swift */; };
+		0C3D11CB2059171100D3FE4C /* testData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D11CA2059171100D3FE4C /* testData.txt */; };
+		0C3D11CD205923AD00D3FE4C /* GZTNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D11CC205923AD00D3FE4C /* GZTNavigationViewController.swift */; };
 		0C80505C2052961600417988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80505B2052961600417988 /* AppDelegate.swift */; };
 		0C80505E2052961600417988 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80505D2052961600417988 /* ViewController.swift */; };
 		0C8050612052961600417988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C80505F2052961600417988 /* Main.storyboard */; };
@@ -14,6 +18,12 @@
 		0C8050662052961600417988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8050642052961600417988 /* LaunchScreen.storyboard */; };
 		0C8050712052961600417988 /* multiSelect_Organization_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8050702052961600417988 /* multiSelect_Organization_DemoTests.swift */; };
 		0C80507C2052961600417988 /* multiSelect_Organization_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80507B2052961600417988 /* multiSelect_Organization_DemoUITests.swift */; };
+		0C805090205296BC00417988 /* GZTSelectCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80508A205296BB00417988 /* GZTSelectCollectionCell.swift */; };
+		0C805091205296BC00417988 /* GZTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80508B205296BB00417988 /* GZTModel.swift */; };
+		0C805092205296BC00417988 /* GZTOrganizationItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80508C205296BB00417988 /* GZTOrganizationItemCell.swift */; };
+		0C805093205296BC00417988 /* GZTOrganizationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80508D205296BB00417988 /* GZTOrganizationCell.swift */; };
+		0C805094205296BC00417988 /* GZTMultiSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80508E205296BB00417988 /* GZTMultiSelectViewController.swift */; };
+		ED636E9EF3127E4801AC4F14 /* Pods_multiSelect_Organization_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782004A7EC25F2CAF96B6B4E /* Pods_multiSelect_Organization_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C0FE8CC205622A800C16710 /* GZTBaseConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZTBaseConst.swift; sourceTree = "<group>"; };
+		0C3D11C8205914D300D3FE4C /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0C3D11CA2059171100D3FE4C /* testData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testData.txt; sourceTree = "<group>"; };
+		0C3D11CC205923AD00D3FE4C /* GZTNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZTNavigationViewController.swift; sourceTree = "<group>"; };
 		0C8050582052961600417988 /* multiSelect(Organization)Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multiSelect(Organization)Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C80505B2052961600417988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C80505D2052961600417988 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,14 @@
 		0C8050772052961600417988 /* multiSelect(Organization)DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multiSelect(Organization)DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C80507B2052961600417988 /* multiSelect_Organization_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiSelect_Organization_DemoUITests.swift; sourceTree = "<group>"; };
 		0C80507D2052961600417988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C80508A205296BB00417988 /* GZTSelectCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZTSelectCollectionCell.swift; sourceTree = "<group>"; };
+		0C80508B205296BB00417988 /* GZTModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZTModel.swift; sourceTree = "<group>"; };
+		0C80508C205296BB00417988 /* GZTOrganizationItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZTOrganizationItemCell.swift; sourceTree = "<group>"; };
+		0C80508D205296BB00417988 /* GZTOrganizationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZTOrganizationCell.swift; sourceTree = "<group>"; };
+		0C80508E205296BB00417988 /* GZTMultiSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZTMultiSelectViewController.swift; sourceTree = "<group>"; };
+		552FE93620DAA1056077658D /* Pods-multiSelect(Organization)Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiSelect(Organization)Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-multiSelect(Organization)Demo/Pods-multiSelect(Organization)Demo.release.xcconfig"; sourceTree = "<group>"; };
+		782004A7EC25F2CAF96B6B4E /* Pods_multiSelect_Organization_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multiSelect_Organization_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87E844B6A3B284A881B6D63 /* Pods-multiSelect(Organization)Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiSelect(Organization)Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-multiSelect(Organization)Demo/Pods-multiSelect(Organization)Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED636E9EF3127E4801AC4F14 /* Pods_multiSelect_Organization_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3D11C2205912CE00D3FE4C /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C80505D2052961600417988 /* ViewController.swift */,
+				0C80508E205296BB00417988 /* GZTMultiSelectViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		0C3D11C3205912F200D3FE4C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0C80508B205296BB00417988 /* GZTModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0C3D11C42059134200D3FE4C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0C80508D205296BB00417988 /* GZTOrganizationCell.swift */,
+				0C80508C205296BB00417988 /* GZTOrganizationItemCell.swift */,
+				0C80508A205296BB00417988 /* GZTSelectCollectionCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0C3D11C52059137500D3FE4C /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				0C3D11C8205914D300D3FE4C /* String+Extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		0C3D11C62059139400D3FE4C /* base */ = {
+			isa = PBXGroup;
+			children = (
+				0C0FE8CC205622A800C16710 /* GZTBaseConst.swift */,
+				0C3D11CC205923AD00D3FE4C /* GZTNavigationViewController.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
 		0C80504F2052961600417988 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +148,8 @@
 				0C80506F2052961600417988 /* multiSelect(Organization)DemoTests */,
 				0C80507A2052961600417988 /* multiSelect(Organization)DemoUITests */,
 				0C8050592052961600417988 /* Products */,
+				D61F5AD2C3D72315D8D4A153 /* Pods */,
+				886B76300A1A878BA92D8792 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +167,12 @@
 			isa = PBXGroup;
 			children = (
 				0C80505B2052961600417988 /* AppDelegate.swift */,
-				0C80505D2052961600417988 /* ViewController.swift */,
+				0C3D11CA2059171100D3FE4C /* testData.txt */,
+				0C3D11C62059139400D3FE4C /* base */,
+				0C3D11C52059137500D3FE4C /* extension */,
+				0C3D11C42059134200D3FE4C /* view */,
+				0C3D11C3205912F200D3FE4C /* model */,
+				0C3D11C2205912CE00D3FE4C /* viewController */,
 				0C80505F2052961600417988 /* Main.storyboard */,
 				0C8050622052961600417988 /* Assets.xcassets */,
 				0C8050642052961600417988 /* LaunchScreen.storyboard */,
@@ -125,6 +199,23 @@
 			path = "multiSelect(Organization)DemoUITests";
 			sourceTree = "<group>";
 		};
+		886B76300A1A878BA92D8792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782004A7EC25F2CAF96B6B4E /* Pods_multiSelect_Organization_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D61F5AD2C3D72315D8D4A153 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F87E844B6A3B284A881B6D63 /* Pods-multiSelect(Organization)Demo.debug.xcconfig */,
+				552FE93620DAA1056077658D /* Pods-multiSelect(Organization)Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C8050802052961600417988 /* Build configuration list for PBXNativeTarget "multiSelect(Organization)Demo" */;
 			buildPhases = (
+				DA4A2179E9C7F898CD54802C /* [CP] Check Pods Manifest.lock */,
 				0C8050542052961600417988 /* Sources */,
 				0C8050552052961600417988 /* Frameworks */,
 				0C8050562052961600417988 /* Resources */,
+				D16399F4D72FF86A7D3E59EB /* [CP] Embed Pods Frameworks */,
+				67639D24150B1B8D3894D5FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3D11CB2059171100D3FE4C /* testData.txt in Resources */,
 				0C8050662052961600417988 /* LaunchScreen.storyboard in Resources */,
 				0C8050632052961600417988 /* Assets.xcassets in Resources */,
 				0C8050612052961600417988 /* Main.storyboard in Resources */,
@@ -254,13 +349,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67639D24150B1B8D3894D5FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-multiSelect(Organization)Demo/Pods-multiSelect(Organization)Demo-resources.sh",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-multiSelect(Organization)Demo/Pods-multiSelect(Organization)Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16399F4D72FF86A7D3E59EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-multiSelect(Organization)Demo/Pods-multiSelect(Organization)Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-multiSelect(Organization)Demo/Pods-multiSelect(Organization)Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4A2179E9C7F898CD54802C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-multiSelect(Organization)Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C8050542052961600417988 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3D11CD205923AD00D3FE4C /* GZTNavigationViewController.swift in Sources */,
+				0C805092205296BC00417988 /* GZTOrganizationItemCell.swift in Sources */,
 				0C80505E2052961600417988 /* ViewController.swift in Sources */,
+				0C805093205296BC00417988 /* GZTOrganizationCell.swift in Sources */,
+				0C805090205296BC00417988 /* GZTSelectCollectionCell.swift in Sources */,
+				0C805091205296BC00417988 /* GZTModel.swift in Sources */,
+				0C805094205296BC00417988 /* GZTMultiSelectViewController.swift in Sources */,
 				0C80505C2052961600417988 /* AppDelegate.swift in Sources */,
+				0C3D11C9205914D300D3FE4C /* String+Extension.swift in Sources */,
+				0C0FE8CD205622A800C16710 /* GZTBaseConst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,12 +588,15 @@
 		};
 		0C8050812052961600417988 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87E844B6A3B284A881B6D63 /* Pods-multiSelect(Organization)Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6C735N6WP;
 				INFOPLIST_FILE = "multiSelect(Organization)Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "WZ.multiSelect-Organization-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shenzhen.Organization-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,12 +605,15 @@
 		};
 		0C8050822052961600417988 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552FE93620DAA1056077658D /* Pods-multiSelect(Organization)Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6C735N6WP;
 				INFOPLIST_FILE = "multiSelect(Organization)Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "WZ.multiSelect-Organization-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shenzhen.Organization-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

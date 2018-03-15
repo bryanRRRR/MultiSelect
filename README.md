@@ -45,6 +45,7 @@ b、 单选简单使用
 
 c、GZTModel，model的设计
 
+
 import UIKit
 import ObjectMapper
 
@@ -71,6 +72,7 @@ class GZTModel: Mappable {
     }
     
 }
+
 
 model设计
 主要考虑是嵌套模型的model（model里面嵌套一个子model，但是两个model的数据格式是一样的，都是GZTModel）。为了解析这种类型数据，这里我引入了ObjectMapper，这个第三方库能有效帮我解析children这个数组，目前经测试，20个层次是没问题的。注意：记得导入ObjectMapper

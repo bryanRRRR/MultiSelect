@@ -41,38 +41,9 @@ b、 单选简单使用
       }
 
 
-
-
-c、GZTModel，model的设计
-
-
- class GZTModel: Mappable {
-     var id: String = ""
-     var level: String = ""
-     var name:String  = ""
-     var children:Array<GZTModel>? = []
-     var hasPermission:Int  = 0
-     var status:Bool  = false
-     var selectNum:Int = 0
-     var hasSelect:Bool = false
-
-     required init?(map: Map) {
-
-     }
-
-     func mapping(map: Map) {
-         id <- map["id"]
-         level <- map["level"]
-         name <- map["name"]
-         children <- map["children"]
-     }
- }
-
-
-model设计
 主要考虑是嵌套模型的model（model里面嵌套一个子model，但是两个model的数据格式是一样的，都是GZTModel）。为了解析这种类型数据，这里我引入了ObjectMapper，这个第三方库能有效帮我解析children这个数组，目前经测试，20个层次是没问题的。注意：记得导入ObjectMapper
 
-d、organizationCollectionView和相关数据的初始化
+c、organizationCollectionView和相关数据的初始化
 
     fileprivate lazy var organizationCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -96,7 +67,7 @@ organizationCollectionView主要注意边距、布局方向的设置，重点是
 organizationList：主要用于存储后面organizationCollectionView每一个cell展开内部UITableView（后续简称tableView）的数据源
 organizationNode：以当前的tableView的row作为键，存储和更新每次上述tableView中选择的model（每个cell对应的数据），用于后面寻找每一个被点击的model的父节点的model，刷新父节点名下被选中的个数。
 
-e、selectOrganization()  主要实现的功能
+d、selectOrganization()  主要实现的功能
 
         if (self.organizationList?.count)! - 1 <= indexPath.row {
             if model.children?.count != 0 {

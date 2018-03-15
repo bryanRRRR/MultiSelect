@@ -48,7 +48,6 @@ c、GZTModel，model的设计
 
 import UIKit
 import ObjectMapper
-
 class GZTModel: Mappable {
     var id: String = ""
     var level: String = ""
@@ -56,7 +55,6 @@ class GZTModel: Mappable {
     var children:Array<GZTModel>? = []
     var hasPermission:Int  = 0
     var status:Bool  = false
-
     var selectNum:Int = 0
     var hasSelect:Bool = false
     
